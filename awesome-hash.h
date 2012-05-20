@@ -1,5 +1,5 @@
-#ifndef KAUPPIM_AWESOME-HASH_H
-#define KAUPPIM_AWESOME-HASH_H
+#ifndef KAUPPIM_AWESOME_HASH_H
+#define KAUPPIM_AWESOME_HASH_H
 
 #include <string.h>
 #include <stdlib.h>
