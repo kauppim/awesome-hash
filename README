@@ -1,1 +1,16 @@
 Hello! This is my first public project pushed up to github.com. I'll be trying to make a nice implementation of Fowler-Noll-Vo hash function. Enjoy!
+
+So, this code simply defines only the hash-generating function according to Fowler-Noll-Vo algorithm. Nothing fancier is included at this point.
+
+Expected output of the provided simple main program should be as follows:
+
+---BEGIN---
+
+Plain English keywords and their FNV hash representations, in base 16.
+Helsinki, Finland:	E6F26385E1F6CAAE
+KauppinenMikael:	5C86D44E6D905F03
+Kauppinen, Mikael:	32CE5AF9CC6077D7
+
+---END---
+
+And, if it isn't as follows, there can be something wrong with the FNV offset base and prime values. I've been pedantically checking my output to find, if the function works as expected. More detail on the used values for offset base can be found in comments of awesome-hash.c.
